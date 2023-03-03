@@ -1,0 +1,38 @@
+/* body{
+    background-color : black;
+    color : #fff;
+}
+.box{
+    width: 200px;
+    height: 200px; */
+    /* background-color: white; */
+/* } */
+#root{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+}
+/* .salmon{
+    color: salmon;
+} */
+.container{
+    display: flex;
+    justify-content: flex-start;
+    gap: 0px;
+}
+.row{
+    display: flex;
+    gap : 5px;
+}
+li button{
+    display: inline-block;
+    max-width: 70px;
+    height: 20px;
+    margin-right: 5px;
+}
+li p{
+    display: inline-block;
+    margin-right: 5px;
+}
